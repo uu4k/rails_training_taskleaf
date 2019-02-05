@@ -1,5 +1,8 @@
 {
     "[slim]": {
         "editor.tabSize": 2
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
     }
 }
