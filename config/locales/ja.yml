@@ -15,7 +15,7 @@ ja:
         name: 名前
         description: 詳しい説明
         created_at: 登録日時
-        update_at: 更新日時
+        updated_at: 更新日時
       user:
         name: 名前
         email: メールアドレス
@@ -23,7 +23,7 @@ ja:
         password: パスワード
         password_confirmation: パスワード(確認)
         created_at: 登録日時
-        update_at: 更新日時
+        updated_at: 更新日時
   date:
     abbr_day_names:
     - 日
