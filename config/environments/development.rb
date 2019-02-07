@@ -65,4 +65,6 @@ Rails.application.configure do
   config.logger.formatter = proc { |severity, timestamp, progname, message|
     "timestamp: #{timestamp}\tseverity: #{severity}\tmessage: #{message}"
   }
+
+  config.active_job.queue_adapter = :sidekiq
 end
